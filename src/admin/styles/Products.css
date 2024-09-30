@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* @import url('https://fonts.cdnfonts.com/css/architects-daughter');
+
+@layer base {
+    html, * {
+        font-family: 'Architects Daughter', sans-serif;
+        font-weight: normal;
+        font-size: 1rem;
+        color: #333333;   
+    }
+} */
+
+.large\:px-xlarge {
+    padding: 0 !important;
+}
+
+main {
+    max-width: 100% !important;
+    height: unset !important;
+}
+
+.max-h-topbar {
+    display: none !important;
+}
+
+.h1-core {
+    font-family: 'Architects Daughter', sans-serif;
+}
+
+.ReactModalPortal .ReactModal__Overlay--after-open {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ReactModalPortal .inner {
+    width: calc(100% - 4rem);
+}
